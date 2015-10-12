@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486DBDAD1BCBEA0A0082601A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DBDAC1BCBEA0A0082601A /* AppDelegate.swift */; };
+		486DBDAF1BCBEA0A0082601A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DBDAE1BCBEA0A0082601A /* ViewController.swift */; };
+		486DBDB21BCBEA0A0082601A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486DBDB01BCBEA0A0082601A /* Main.storyboard */; };
+		486DBDB41BCBEA0A0082601A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486DBDB31BCBEA0A0082601A /* Assets.xcassets */; };
+		486DBDB71BCBEA0A0082601A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486DBDB51BCBEA0A0082601A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		486DBDA91BCBEA0A0082601A /* IBWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486DBDAC1BCBEA0A0082601A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		486DBDAE1BCBEA0A0082601A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		486DBDB11BCBEA0A0082601A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		486DBDB31BCBEA0A0082601A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486DBDB61BCBEA0A0082601A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		486DBDB81BCBEA0A0082601A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486DBDA61BCBEA0A0082601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486DBDA01BCBEA0A0082601A = {
+			isa = PBXGroup;
+			children = (
+				486DBDAB1BCBEA0A0082601A /* IBWeChat */,
+				486DBDAA1BCBEA0A0082601A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		486DBDAA1BCBEA0A0082601A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486DBDA91BCBEA0A0082601A /* IBWeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486DBDAB1BCBEA0A0082601A /* IBWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				486DBDAC1BCBEA0A0082601A /* AppDelegate.swift */,
+				486DBDAE1BCBEA0A0082601A /* ViewController.swift */,
+				486DBDB01BCBEA0A0082601A /* Main.storyboard */,
+				486DBDB31BCBEA0A0082601A /* Assets.xcassets */,
+				486DBDB51BCBEA0A0082601A /* LaunchScreen.storyboard */,
+				486DBDB81BCBEA0A0082601A /* Info.plist */,
+			);
+			path = IBWeChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486DBDA81BCBEA0A0082601A /* IBWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486DBDBB1BCBEA0A0082601A /* Build configuration list for PBXNativeTarget "IBWeChat" */;
+			buildPhases = (
+				486DBDA51BCBEA0A0082601A /* Sources */,
+				486DBDA61BCBEA0A0082601A /* Frameworks */,
+				486DBDA71BCBEA0A0082601A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBWeChat;
+			productName = IBWeChat;
+			productReference = 486DBDA91BCBEA0A0082601A /* IBWeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486DBDA11BCBEA0A0082601A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sunnyxx;
+				TargetAttributes = {
+					486DBDA81BCBEA0A0082601A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 486DBDA41BCBEA0A0082601A /* Build configuration list for PBXProject "IBWeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486DBDA01BCBEA0A0082601A;
+			productRefGroup = 486DBDAA1BCBEA0A0082601A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486DBDA81BCBEA0A0082601A /* IBWeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486DBDA71BCBEA0A0082601A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486DBDB71BCBEA0A0082601A /* LaunchScreen.storyboard in Resources */,
+				486DBDB41BCBEA0A0082601A /* Assets.xcassets in Resources */,
+				486DBDB21BCBEA0A0082601A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486DBDA51BCBEA0A0082601A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486DBDAF1BCBEA0A0082601A /* ViewController.swift in Sources */,
+				486DBDAD1BCBEA0A0082601A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		486DBDB01BCBEA0A0082601A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486DBDB11BCBEA0A0082601A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		486DBDB51BCBEA0A0082601A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486DBDB61BCBEA0A0082601A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		486DBDB91BCBEA0A0082601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		486DBDBA1BCBEA0A0082601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486DBDBC1BCBEA0A0082601A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IBWeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunnyxx.IBWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		486DBDBD1BCBEA0A0082601A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IBWeChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunnyxx.IBWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486DBDA41BCBEA0A0082601A /* Build configuration list for PBXProject "IBWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486DBDB91BCBEA0A0082601A /* Debug */,
+				486DBDBA1BCBEA0A0082601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486DBDBB1BCBEA0A0082601A /* Build configuration list for PBXNativeTarget "IBWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486DBDBC1BCBEA0A0082601A /* Debug */,
+				486DBDBD1BCBEA0A0082601A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486DBDA11BCBEA0A0082601A /* Project object */;
+}
