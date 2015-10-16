@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cS2-PA-n5P">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Bridge InputBar-->
+        <scene sceneID="Bv6-wz-3Bs">
+            <objects>
+                <viewController id="OBc-Nf-TG9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TNw-PS-BGd"/>
+                        <viewControllerLayoutGuide type="bottom" id="jCS-fN-fjR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5fH-BS-RMC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1f-CE-pDB">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SqU-PD-Nt1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="P1f-CE-pDB" firstAttribute="leading" secondItem="5fH-BS-RMC" secondAttribute="leading" id="ZKl-MS-1XY"/>
+                            <constraint firstAttribute="trailing" secondItem="P1f-CE-pDB" secondAttribute="trailing" id="uxc-1S-UT6"/>
+                            <constraint firstItem="jCS-fN-fjR" firstAttribute="top" secondItem="P1f-CE-pDB" secondAttribute="bottom" id="wK1-XH-2Ie"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bridge InputBar" id="KR4-FO-ppa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8C-th-58F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="898" y="324"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="anT-we-mb3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cS2-PA-n5P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6aa-kx-sDB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OBc-Nf-TG9" kind="relationship" relationship="rootViewController" id="qP3-q7-kzu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfb-Op-Bfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="491" y="324"/>
+        </scene>
+    </scenes>
+</document>

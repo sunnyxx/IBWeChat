@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InputBar" customModule="IBWeChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vmL-kF-0uc">
+                    <rect key="frame" x="0.0" y="0.0" width="43" height="43"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="vmL-kF-0uc" secondAttribute="height" id="rBM-Ig-o3w"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Button" image="nibbridge_voice"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-fF-UsT">
+                    <rect key="frame" x="277" y="0.0" width="43" height="43"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3bt-fF-UsT" secondAttribute="height" id="rcz-WY-KKf"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Button" image="nibbridge_emotion"/>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSX-6D-K2m">
+                    <rect key="frame" x="43" y="4" width="234" height="35"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NSX-6D-K2m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="2ef-lK-PmW"/>
+                <constraint firstItem="3bt-fF-UsT" firstAttribute="leading" secondItem="NSX-6D-K2m" secondAttribute="trailing" id="3q6-Oh-OCi"/>
+                <constraint firstItem="vmL-kF-0uc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="40J-VV-d1K"/>
+                <constraint firstItem="NSX-6D-K2m" firstAttribute="leading" secondItem="vmL-kF-0uc" secondAttribute="trailing" id="CAj-Bm-CuW"/>
+                <constraint firstAttribute="bottom" secondItem="NSX-6D-K2m" secondAttribute="bottom" constant="4" id="E3d-ek-QZF"/>
+                <constraint firstItem="vmL-kF-0uc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QFh-ug-tDf"/>
+                <constraint firstAttribute="bottom" secondItem="vmL-kF-0uc" secondAttribute="bottom" id="SUS-rA-2a5"/>
+                <constraint firstAttribute="bottom" secondItem="3bt-fF-UsT" secondAttribute="bottom" id="Wno-r9-HXa"/>
+                <constraint firstAttribute="trailing" secondItem="3bt-fF-UsT" secondAttribute="trailing" id="YIU-tF-e1Q"/>
+                <constraint firstItem="3bt-fF-UsT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nlt-Ae-xoZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="271" y="186.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nibbridge_emotion" width="30" height="30"/>
+        <image name="nibbridge_voice" width="35" height="35"/>
+    </resources>
+</document>

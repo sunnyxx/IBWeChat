@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="PBf-eM-1Wq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MJz-ih-cLN">
+            <objects>
+                <tabBarController id="PBf-eM-1Wq" sceneMemberID="viewController">
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="300"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="GHO-vU-v2S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k9I-3U-Dav" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="ESg-k2-mSG" customClass="TabsLoader" customModule="IBWeChat" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="storyboardNames" value="Messages,Contacts,Discovery,Account"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="tabBarController" destination="PBf-eM-1Wq" id="gEj-Oy-gQl"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-198" y="-60"/>
+        </scene>
+    </scenes>
+</document>
