@@ -14,7 +14,7 @@ class MessagesViewController: UITableViewController {
     override func viewDidLoad() {
         self.view.addSubview(self.loadingView)
         self.loadingView.frame = self.view.bounds
-        let dtime = dispatch_time(DISPATCH_TIME_NOW, Int64(5.0 * Double(NSEC_PER_SEC)))
+        let dtime = dispatch_time(DISPATCH_TIME_NOW, Int64(3.0 * Double(NSEC_PER_SEC)))
         dispatch_after(dtime, dispatch_get_main_queue()) {
             self.loadingView.removeFromSuperview()
         }

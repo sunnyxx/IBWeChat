@@ -8,6 +8,6 @@
 
 import Foundation
 
-class InputBar: UIView {
+class InputBar: UIView, XXNibBridge {
     
 }
